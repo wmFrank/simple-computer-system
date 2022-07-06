@@ -1,7 +1,7 @@
 #include "nemu.h"
 #include "cpu/fpu.h"
 
-FPU fpu;
+extern FPU fpu;
 // special values
 FLOAT p_zero, n_zero, p_inf, n_inf, p_nan, n_nan;
 
