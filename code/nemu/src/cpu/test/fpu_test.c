@@ -3,7 +3,7 @@
 #include <stdlib.h>
 #include <time.h>
 
-FLOAT p_zero, n_zero, p_inf, n_inf, p_nan, n_nan, denorm_1, denorm_2, denorm_3, big_1, big_2, small_1, small_2;
+static FLOAT p_zero, n_zero, p_inf, n_inf, p_nan, n_nan, denorm_1, denorm_2, denorm_3, big_1, big_2, small_1, small_2;
 
 void fpu_test_add() {
 	float input[] = {
