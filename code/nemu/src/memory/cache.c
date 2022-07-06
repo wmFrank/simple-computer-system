@@ -2,7 +2,7 @@
 #include "memory/memory.h"
 #include <math.h>
 
-//CacheLine cache_block[1024]; //64KB
+CacheLine cache_block[1024]; //64KB
 
 void init_cache()  //clear valid_bit
 {
